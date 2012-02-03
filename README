@@ -1,0 +1,10 @@
+Example usage of class
+
+In the following code I create a YelpApi object and pass a list of API params. The reults are retruned in JSON format.
+
+
+from yelp import YelpApi
+
+yelpApi = YelpApi(consumer_key, consumer_secret,token_key, token_secret)
+params = {'term' : 'food', 'bounds' : " 41.0834917675, -81.39382852783203|41.206297513, -81.30878448486328", 'limit' : '10'}
+responses = yelpApi.search(params)
