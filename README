@@ -1,3 +1,10 @@
+************************************************************************
+This is very much in development - there's still some testing to be done
+and all features are yet to be tested :)
+************************************************************************
+
+
+
 Example usage of class
 
 In the following code I create a YelpApi object and pass a list of API params. The reults are retruned in JSON format.
